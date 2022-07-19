@@ -1,0 +1,14 @@
+class B3 
+{
+	void m1(){
+		float f1 = 200.111111111f;
+		float f2 = 200.44444222222f;
+		float r = f1 + f2;
+		System.out.println("r= " + r);
+	}
+	public static void main(String[] args) 
+	{
+	 B3 b = new B3();
+	 b.m1();
+	}
+}
